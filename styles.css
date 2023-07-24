@@ -8,12 +8,14 @@
 body {
   background-color: #1f2937;
   color: white;
-  margin: 0px 100px;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
+  margin: 0 100px;
 }
 
 .nav-links {
@@ -34,6 +36,7 @@ nav {
 #hero {
   display: flex;
   align-items: center;
+  margin: 0 100px;
 }
 
 .hero-text h1 {
@@ -60,4 +63,25 @@ nav {
   width: 500px;
   height: 250px;
   margin-left: 10px;
+}
+
+#quote{
+  background-color: #E5E7EB;
+  color: black;
+}
+
+.quote-container{
+  margin: auto;
+width: 800px;
+padding: 100px 0px;
+}
+
+.quote-container span{
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.quote-container p{
+  text-align: right;
+
 }
