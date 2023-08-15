@@ -95,6 +95,8 @@ background-color: white;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
+  color:#1F2937;
 }
 
 .info-img img{
