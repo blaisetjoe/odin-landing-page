@@ -66,6 +66,33 @@ nav {
   margin-left: 10px;
 }
 
+
+#info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color:#1F2937;
+}
+
+.info-img{
+  display: flex;
+  gap: 10px;
+  padding-bottom: 50px;
+}
+
+.info-img img{
+  width: 100px;
+  border: 2px blue solid;
+  border-radius: 5px;
+}
+
+.info-head{
+  text-align: center;
+  padding: 15px 0px;
+}
+
 #quote{
   background-color: #E5E7EB;
   color: black;
@@ -89,17 +116,4 @@ padding: 100px 0px;
 
 #sign-up{
 background-color: white;
-}
-
-#info{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  color:#1F2937;
-}
-
-.info-img img{
-  width: 100px;
 }
