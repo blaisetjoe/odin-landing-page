@@ -85,3 +85,18 @@ padding: 100px 0px;
   text-align: right;
 
 }
+
+#sign-up{
+background-color: white;
+}
+
+#info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-img img{
+  width: 100px;
+}
